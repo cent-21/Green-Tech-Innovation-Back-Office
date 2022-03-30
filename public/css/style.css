@@ -1,0 +1,115 @@
+/*==================== GOOGLE FONTS ====================*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,700;0,800;0,900;1,100;1,200;1,300;1,600;1,700;1,800;1,900&display=swap');
+
+
+html, body {
+    font-family: Poppins, serif;
+}
+
+.btn-primary- {
+    background-color: hsl(122, 58%, 50%) !important;
+    color: #fff !important;
+}
+
+.bg-primary- {
+    background-color: hsl(122, 58%, 50%) !important;
+}
+
+.text-primary- {
+    color: hsl(122, 58%, 50%) !important;
+}
+
+.btn-danger- {
+    background-color: #f00 !important;
+    color: #fff !important;
+}
+
+
+
+input.form-control-, select.form-control- {
+	border: 0.05px solid #ccc;
+	width: 100%;
+	padding: 8px;
+	height: 40px;
+    font-size: 15px;
+    color: #808080;
+  	border-radius: 5px;
+    font-family: sans-serif;
+	outline-color: hsl(122, 58%, 50%);
+}
+textarea.form-control- {
+	border: 0.05px solid #ccc;
+	padding: 8px;
+	width: 100%;
+    font-size: 15px;
+    color: #808080;
+    border-radius: 5px;
+	outline-color: #f8f8f8;
+}
+input.form-control-:focus, textarea.form-control-:focus {
+	border: 0px;
+	padding: 8px;
+	width: 100%;
+	outline-color: hsl(122, 58%, 50%);
+}
+
+
+
+.nav_item {
+    padding: 10px 0px;
+    color: black;
+    padding-left: 35px;
+    font-weight: 600;
+    font-size: 15px
+}
+.nav_item a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 14px;
+}
+.nav_item i {
+    margin-right: 5px;
+}
+.sidebar {
+    width: 270px;
+    background-color: #fff;
+    height: 100vh;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    overflow: auto;
+}
+.sidebar h6 {
+    color: hsl(122, 58%, 50%);
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+
+.content {
+    width: 100%;
+    margin-left: 270px;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: unset;
+}
+a:hover, a:focus {
+    text-decoration: none;
+    color: hsl(122, 58%, 50%);
+}
+td a {
+    font-size: 14px
+}
+label {
+    color: black;
+    font-size: 15px;
+}
+
+
+table, tbody, thead, tr {
+    border: 0px solid #fff;
+}
